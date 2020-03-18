@@ -49,6 +49,15 @@ img {
 				width: 100%;
 			}
 		}
+		&.fitheight {
+			display: block;
+			margin: 0 0 _size(element-margin) 0;
+			height: 100%;
+
+			img {
+				height: 100%;
+			}			
+		}
 
 		&.main {
 			display: block;
@@ -56,7 +65,7 @@ img {
 			width: 100%;
 
 			img {
-				width: 100%;
+				width: 50%;
 			}
 
 			@include breakpoint(small) {

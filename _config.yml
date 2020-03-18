@@ -1,36 +1,43 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+title: La Toile Numérique
+subtitle: Un site internet utile et efficace
+email: thomas@latoilenumerique.fr
+description: Création de site Internet Web utile et efficace à Savenay 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://www.la-toile-numerique.fr # the base hostname & protocol for your site
+author: Thomas Juton
+street_address: Rue de la gare
+city: Savenay
+state: Loire Atlantique
+zip_code: 44260
+country: France
+phone: 06 58 21 91 83
+siret: 880 132 824 00017
+
+maincolor: "2B243E"
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 5
 
 # social settings
-500px_url:
-facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url:
-slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+500px_url: https://500px.com/thomasjuton
+facebook_url: https://fb.me/latoilenumerique
+googlebusiness_url: https://g.page/latoilenumerique?gm
+instagram_url: https://www.instagram.com/latoilenumerique
+linkedin_url: https://www.linkedin.com/in/thomas-juton
 
 # build settings
 markdown: kramdown
 
 sass:
   style: compressed
+
+compress_html:
+  clippings: all
+  comments: [""]
+  endings: [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
+  profile: false
+  blanklines: false
+  ignore:
+  envs: []

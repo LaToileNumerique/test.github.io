@@ -346,6 +346,26 @@
 							$menu._hide();
 
 				});
+				
+			$('form#contact_form').validate({
+			  rules: { 'check-human': { required: true },},
+			  messages: { 'check-human': "Cochez la case anti-spam !"},
+			  submitHandler: function(form) {
+				$.ajax({
+				  type: 'POST',
+				  url: $(form).attr("action"),
+				  data: $(form).serialize(),
+				  success: function(data) {
+					if(data.match(/success/)) {
+					  $(form).trigger('reset');
+					  $(form).scrollTop();
+					  $('#thanks').show().fadeOut(5000);
+					}
+				  }
+				});
+				return false;
+			  }
+			});				
 
 	});
 
