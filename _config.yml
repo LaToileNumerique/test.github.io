@@ -4,7 +4,11 @@ subtitle: Un site internet utile et efficace
 email: thomas@latoilenumerique.fr
 description: Création de site Internet Web utile et efficace à Savenay 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://www.la-toile-numerique.fr # the base hostname & protocol for your site
+# url: https://www.la-toile-numerique.fr # the base hostname & protocol for your site
+baseurl: "/test.github.io" # the subpath of your site, e.g. /blog
+url: "https://latoilenumerique.github.io/test.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "latoilenumerique/test.github.io"
+
 author: Thomas Juton
 street_address: Rue de la gare
 city: Savenay
