@@ -41,5 +41,3 @@ compress_html:
   blanklines: false
   ignore:
   envs: []
-
-theme: jekyll-theme-slate
