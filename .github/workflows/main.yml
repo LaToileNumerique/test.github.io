@@ -13,7 +13,7 @@ jobs:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@gh-pages
+    - uses: actions/checkout@master
     
     - name: Use Node.js 12.x
       uses: actions/setup-node@v1
@@ -36,5 +36,5 @@ jobs:
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: build
         METHOD: sftp
-        PORT: 22
+        PORT: 21
         ARGS: --delete
